@@ -1,7 +1,7 @@
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        var a = new Array("欢迎右则点击打赏留下微信号～博主将及时联系您～");
+        var a = new Array("=。=");
         var $i = $("<span></span>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
