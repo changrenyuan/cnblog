@@ -1,11 +1,5 @@
 # Live2D Widget
 
-![](https://forthebadge.com/images/badges/built-with-love.svg)
-![](https://forthebadge.com/images/badges/uses-html.svg)
-![](https://forthebadge.com/images/badges/made-with-javascript.svg)
-![](https://forthebadge.com/images/badges/contains-cat-gifs.svg)
-![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
-![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
 ## 特性 Feature
 
@@ -17,9 +11,8 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 ## 示例 Demo
 
-在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
+在(https://www.cnblogs.com/changryJB)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
 
-<img src="assets/screenshot-2.png" width="280"><img src="assets/screenshot-3.png" width="280"><img src="assets/screenshot-1.png" width="270">
 
 你也可以在允许的范围内进行二次开发，这里有一些示例
 
@@ -39,7 +32,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
 
 将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/changrenyuan/cnblog@latest/live2d-widget/autoload.js"></script>
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
@@ -67,7 +60,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
   ```bash
   cd /path/to/your/webroot
   # Clone this repository
-  git clone https://github.com/stevenjoezhang/live2d-widget.git
+  git git@github.com:changrenyuan/cnblog.git
   ```
 - 如果你的主机无法用 `ssh` 连接（例如一般的虚拟主机），请选择 `Download ZIP`，然后通过 `ftp` 等方式上传到主机上，再解压到网站的目录下。
 - 如果你是通过 Hexo 等工具部署的静态博客，请在博客源文件（即 `source`）目录下，执行前述的 `git clone` 命令。重新部署博客时，相关文件就会自动上传到对应的路径下。为了避免这些文件被 Hexo 插件错误地修改，可能需要设置 `skip_render`。
@@ -116,10 +109,6 @@ https://example.com/path/to/live2d-widget/
 > 感谢 jsDelivr 提供的 CDN 服务。  
 > Thanks jsDelivr for providing public CDN service.
 
-代码自这篇博文魔改而来：  
-https://www.fghrsh.net/post/123.html
-
-点击看板娘的纸飞机按钮时，会出现一个彩蛋，这来自于 [WebsiteAsteroids](http://www.websiteasteroids.com)。
 
 ## 更多 More
 
