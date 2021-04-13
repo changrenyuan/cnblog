@@ -66,7 +66,7 @@ function loadWidget(config) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				const script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/changrenyuan/asteroids/asteroids.js";
+				script.src = "https://cdn.jsdelivr.net/gh/changrenyuan/cnblog/asteroids.js";
 				document.head.appendChild(script);
 			}
 		});
